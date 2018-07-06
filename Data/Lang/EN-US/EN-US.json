@@ -1,0 +1,167 @@
+{
+    "name": "Windows On Raspberry Pi Media Creation Tool",
+    "short_name": "Win On Raspi Media Creation Tool",
+    "lang": "GB-EN",
+    "isLeftReading": true,
+    "common_elements": {
+        "ok_button": "Ok",
+        "cancel_button": "Cancel",
+        "yes_button": "Yes",
+        "no_button": "No",
+        "back_button": "Back",
+        "next_button": "Next",
+        "disagree_button": "Disagree",
+        "agree_button": "Agree",
+        "continue_button": "Continue",
+        "browse_button": "Browse",
+        "download_button": "Download",
+        "finnish_button": "Finnish",
+        "refresh_button": "Refresh",
+        "start_button": "Start",
+        "exit_button": "Exit",
+        "quit_button": "Quit"
+    },
+    "pages": {
+        "selectAppLangaugePage": {
+            "title": "Select a Language",
+            "selectALanguageComboBoxLabel": "Select a Language"
+        },
+        "welcomePage": {
+            "title": "Windows",
+            "title_secondary": "On Raspberry Pi",
+            "subtitle": "Working In Progress",
+            "disclaimer": "Windows is Copyright of Microsoft & This is Not a Official Microsoft Product"
+        },
+        "aboutPage": {
+            "title": "About",
+            "nameLabel": "Win On Raspi Media Creation Tool",
+            "versionLabel": "Version",
+            "buildLabel": "Build",
+            "buildDateLabel": "Build Date",
+            "developerLabel": "Developed By",
+            "specialThanksLabel": "Special Thanks To",
+            "githubReposLabel": "GitHub Repos"
+        },
+        "termsPage": {
+            "title": "Terms & Conditions",
+            "rtfFileLink": "\\Data\\Lang\\EN-US\\Terms-EN-US.rtf"
+        },
+        "selectDrivePage": {
+            "title": "Select a Storage Drive",
+            "selectDriveTextFieldLabel": "Select Drive"
+        },
+        "formattingSDDrivePage": {
+            "title": "Formatting SD Card",
+            "subtitle": "Please Wait... (May Take a Minute or Two)"
+        },
+        "hasSDFormatedProperlyPage": {
+            "title": "Has The SD Card Formatted Correctly?",
+            "subtitle_1": "The SD Card should have been partitioned into two drives like below",
+            "subtitle_2": "Please Check in Windows Explorer to see if it matches with the below",
+            "subtitle_3": "(if it has correctly formatted please press YES else press NO):-"
+        },
+        "selectingRaspiPackagesPage": {
+            "title": "Select Window On Raspi Packages",
+            "raspPiPkgTextFieldLabel": "RaspberryPiPkg Zip File",
+            "winOnRaspTextFieldLabel": "Windows On RPI Zip File"
+        },
+        "isoSelectionOptionsPage": {
+            "title": "Select A ISO File Source Option",
+            "option_1": "Select a Windows ARM64 ISO File Path (Recommended)",
+            "option_2": "Download using UUP Method (Not Recommended Proccess A Bit Buggy)"
+        },
+        "selectWindowsISOFilePage": {
+            "title": "Select Window Arm64 ISO File",
+            "winImageTextFieldLabel": "Windows Image File"
+        },
+        "selectAUUPPackageFilePage": {
+            "title": "Select A UUP Package File",
+            "uupPackageTextFieldLabel": "UUP Package File (.zip)"
+        },
+        "downloadingWindowsISOFilePage": {
+            "title": "Downloading Windows using UUP",
+            "subtitle": "Please Wait... (May Take 20 to 40 Minutes to Complete)"
+        },
+        "settingUpTempFilesPage": {
+            "title": "Setting Up Temp Files",
+            "subtitle": "Please Wait... (May Take a Few Minutes)"
+        },
+        "selectedRecommendedDriversPage": {
+            "title": "Select Raspberry Pi Drivers",
+            "option_1": "Automaticly Selected Drivers",
+            "option_2": "Manually Select Version of Drivers (Recommended)"
+        },
+        "manualSelectionDriversPage": {
+            "title": "Manually Select Raspberry Pi Drivers",
+            "driverVersionComboBoxLabel": "Please Wait... (Select Driver Version",
+            "debugModeLabel": "Use Debug Drivers"
+        },
+        "modifingInstallWimPage": {
+            "title": "Modifing Install.wim Files",
+            "subtitle": "Please Wait... (This may take 20 to 40 minutes to complete)"
+        },
+        "addingWindowsFilesToSDCardPage": {
+            "title": "Adding Windows Files",
+            "subtitle": "Please Wait... (May Take 20 to 40 minutes to complete)"
+        },
+        "signingWindowsFilesPage": {
+            "title": "Signing Windows &amp; Driver Files",
+            "subtitle": "Please Wait... (May Take a Minute or two to complete)"
+        },
+        "cleanUpPage": {
+            "title": "Cleaning Up",
+            "subtitle": "Please Wait... (May Take a Minute or two to complete)"
+        },
+        "completedSetupPage": {
+            "title_successful": "Successfully Completed Windows Setup",
+            "title_unsuccessful": "Unsuccessfully Completed Windows Setup",
+            "subtitle": "Please run This Command Scripts as Admin below:"
+        }
+    },
+    "alerts_messages" : {
+        "cancelAlert": {
+            "title": "Confirm",
+            "message": "This Action will stop the installation process, Do you want to Continue?"
+        },
+        "cancelAfterCleanUpAlert": {
+            "title": "Confirm",
+            "message": "This Action will stop the installation process and cleanup any files that was copied over, Do you want to Continue?"
+        },
+        "cantCloseAlert": {
+            "title": "Error!",
+            "message": "You Can't Close This Application at this time because the application is running an important task that may corrupt your system."
+        },
+        "closeAfterCleanUpAlert": {
+            "title": "Confirm",
+            "message": "If You Press Yes It will Clean Up and Close Application, Do you want to Continue?"
+        },
+        "closeAlert": {
+            "title": "Confirm",
+            "message": "This Action will stop the installation process, Do you want to Continue?"
+        },
+        "oneOrMorePathsEmptyAlert": {
+            "title": "Error!",
+            "message": "Can't continue because one or more paths hasn't been filled in!"
+        },
+        "emptyPathAlert": {
+            "title": "Error!",
+            "message": "You can't leave a path empty please fill in the empty paths before continuing"
+        },
+        "invalidISOFileAlert": {
+            "title": "Error!",
+            "message": "Can't continue because you haven't provided a path to a valid .iso file"
+        },
+        "sdCardNotBigEnoughAlert": {
+            "title": "Error!",
+            "message": "Please uses a Drive that is 16GBs or Higher!"
+        },
+        "sdDriveRecommendationAlert": {
+            "title": "Confirm",
+            "message": "It is Recommend that you use a 32GB or Higher Drive, Do you want to Continue?"
+        },
+        "sdDriveWarningAlert": {
+            "title": "Confirm",
+            "message": "This Action will Format and Erase all data that was on the drive you selected, Do you want to Continue?"
+        }
+    }
+}

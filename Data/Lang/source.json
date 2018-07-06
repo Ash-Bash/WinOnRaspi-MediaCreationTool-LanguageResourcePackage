@@ -1,0 +1,14 @@
+{
+    "lang_list": [
+        {
+            "title": "English - UK",
+            "lang": "EN-GB",
+            "link": "EN-GB/EN-GB.json"
+        },
+        {
+            "title": "English - US",
+            "lang": "EN-US",
+            "link": "EN-US/EN-US.json"
+        }
+    ]
+}
